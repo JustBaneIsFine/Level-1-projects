@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Expence tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+	<body>
+
+
+	<header>
+		<h1>Welcome to the Expence tracker</h1>
+	</header>
+
+
+	<main>
+
+	<section id="balance">
+		<p>Current balance is:</p>
+		<p id="currentBalance"></p>
+	</section>
+	<section id="incomeAndExpences">
+
+		<section id="incomeSpace">
+		<label>+$</label><label id="income"></label>
+		</section>
+
+		<section id="expenseSpace">
+			<label>-$</label><label id="expense"></label>
+		</section>
+
+	</section>
+
+
+	<section >
+		<ul id="history">
+			<li class="listItem"><label id="nameSpace">name</label><label id="typeSpace">Type</label><label id="amountSpace">amount</label></li>
+		</ul>
+	</section>
+
+
+
+	<section style="text-align: center;">
+		<section id="name" style="margin: 10px;">
+
+		<label>Name</label>
+		<input type="text" placeholder="ex" id="inputName">
+		</section>
+		<section id="name">
+		<label>Amount</label>
+		<input type="text"placeholder="ex" id="inputAmount">
+
+
+		</section>
+		<label> When entering amount, add + for income and - for expenses..
+		ex. "-25" or "+610"</label> <br>
+		<button style="margin: 10px;" id="submitButton">Submit transaction</button>
+	</section>
+
+	</main>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

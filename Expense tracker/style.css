@@ -1,0 +1,88 @@
+body {margin: 0;
+background-color: ;}
+
+header {
+	height: 10em;
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;	
+	display: flex;
+	background-color: grey;
+}
+
+h1 {
+	margin: 0;
+}
+
+
+#currentBalance,p {
+	font-size: 1.5rem;
+	text-align: center;
+	border-bottom: black solid 5px;
+	border-radius: 50%;
+	margin: 0px;
+	margin-bottom: 10px;
+}
+
+#incomeAndExpences{
+	text-align: center;
+	border-radius: 20px;
+	width: 50%;
+	margin: auto;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 2rem;
+}
+
+
+#incomeSpace {
+	text-align: center;
+	border: 2px solid green;
+	border-radius: 20px;
+
+	/* These 3 lines center everything in every way */
+	justify-content:center;
+	align-items:center;
+	display:flex;
+
+}
+
+#expenseSpace {
+	text-align: center;
+	border: 2px solid red;
+	border-radius: 20px;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+}
+
+#transaction{
+	text-align: center;
+}
+ul {
+	padding: 30px;
+}
+
+li {
+	/*deleting old css*/
+	list-style: none;
+	margin: 0px;
+
+	/*creating new css*/
+	font-size: 1em;
+	margin-bottom: 20px;
+	border: 1px solid black;
+	padding: 5px;
+	border-radius: 20px;
+}
+
+.listItem {
+	background-color: grey;
+	align-items: center;
+	justify-content: space-evenly;	
+	display: flex;
+
+}

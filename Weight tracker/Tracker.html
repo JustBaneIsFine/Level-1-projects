@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weight tracker</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+
+<header>
+	<h1>Welcome to the weight tracker</h1>
+</header>
+
+<main>
+
+	<section>
+		<!-- the status bar -->
+		<section class="status">
+
+			<section class="current">
+			<label class="label">Current</label>
+			<label class="number" id="statusWeight">0</label>
+			</section>
+
+			<section class="change">
+			<label class="label">Daily change</label>
+			<label class="number" id="statusChange">0</label>
+			</section>
+
+			<section class="goal">
+			<label class="label">From goal</label>
+			<label class="number" id="statusFromGoal">0</label>
+			</section>
+
+			<section class="weekly">
+			<label class="label">This week</label>
+			<label class="number" id="statusWeek">0</label>
+			</section>
+
+			<section class="monthly">
+			<label class="label">This month</label>
+			<label class="number" id="statusMonth">0</label>
+			</section>
+
+			<section class="total">
+			<label class="label">Total Change</label>
+			<label class="number" id="statusTotalChange">0</label>
+			</section>
+			<section class="thegoal">
+			<label class="label">The goal</label>
+			<label class="number" id="statusGoal">0</label>
+			</section>
+			<section class="buttongoal">
+			<label class="label">Change goal</label>
+			<button id="changeButton">Change</button>
+			</section>
+			<section class="buttonadd">
+			<label class="label">Add info</label>
+			<button id="addButton">Add</button>
+			</section>
+
+
+
+		</section>
+		<!-- the status bar -->
+		<h4 style="text-align: center;">To delete an entry, click on the desired entry and confirm your selection</h4>
+
+		<!-- the history bar -->
+
+		<section id="history">
+			<section>
+				<ul id="list">
+					<!--Example for history component-->	
+					<li id="labelhistory"><label id="date">Date</label> <label id="change">Change</label> <label id="weight">Weight</label></li>
+					<!-- Example for history component -->
+					<!-- Create in script -->
+				</ul>
+			</section>
+		</section>
+
+		<!-- the history bar -->
+	</section>
+
+</main>
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

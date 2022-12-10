@@ -1,0 +1,103 @@
+body {
+		margin: 0;
+ 		background: rgb(2,56,0);
+		background: linear-gradient(90deg, rgba(2,56,0,0.7960317916228992) 0%, rgba(0,137,124,0.6643791305584734) 100%);
+		text-align: center;
+
+}
+
+header {
+	height: 10em;
+	border: 2px solid grey;
+	background-color: black;
+	align-items: center;
+	justify-content: center;	
+	display: flex;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+}
+#recipeList {
+	padding: 20px;
+}
+h4{
+	text-align: center;
+	width:  80%;
+	margin: auto;
+	background-color: grey;
+	margin-top: 10px;
+	border-radius: 7px;
+	border: 1px solid;
+	transition: 1s;
+}
+
+a{
+	
+	text-decoration: none;
+	color: black;
+	width: 50%;
+
+}
+
+h4:hover{background-color: white;
+transition: 0.5s;}
+
+
+p {
+	font-size: 1.5rem;
+	text-align: center;
+	border-bottom: black solid 5px;
+	border-radius: 50%;
+	margin: 0px;
+	margin-bottom: 10px;
+
+}
+
+input{
+width: 20%;
+margin: 40%;
+margin-top: 0;
+margin-bottom: 0;}
+
+textArea {
+	width: 40%;
+	height: 200px;
+}
+button{
+
+}
+#addIngredientButton{
+	display: flex;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+label{
+	font-size: 1.5rem;
+	margin: 20px;
+	background-color: rgba(55, 55, 86, 0.1);
+	border-radius: 20px;
+	padding: 10px;
+}
+
+#ingredientContent {
+	margin: 20px;
+}
+
+
+
+#checkBox {
+	width: auto;
+	margin: auto;
+}
+
+#deleteLabel:hover {
+	cursor: pointer;
+}
+
+#deleteLabel:active {
+	cursor: pointer;
+}

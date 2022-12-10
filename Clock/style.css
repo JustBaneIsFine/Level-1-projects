@@ -1,0 +1,53 @@
+body {margin: 0;
+background-color: black;}
+
+header {
+	height: 10em;
+	border: 2px solid grey;
+	background-color: black;
+	align-items: center;
+	justify-content: center;	
+	display: flex;
+}
+
+h1 {
+	margin: 0;
+	color: white;
+}
+
+.section {
+	background-color: rgba(255, 255, 255, 0.5);
+	padding: 20px 0px 20px 0px;
+
+	}
+
+#clock {
+	background-color: white;
+	width: 12rem;
+	margin: auto;
+	text-align: center;
+	font-size: 3rem;
+	border-radius: 20px 20px 20px 20px;
+	border: 2px black solid;
+}
+
+#date {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	background-color: white;
+	width: 12rem;
+	text-align: center;
+	font-size: 2rem;
+	border-radius: 20px 20px 20px 20px;
+	border: 2px black solid;
+}
+
+p {
+	font-size: 1.5rem;
+	text-align: center;
+	border-bottom: black solid 5px;
+	border-radius: 50%;
+	margin: 0px;
+	margin-bottom: 10px;
+}
