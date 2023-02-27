@@ -1,6 +1,6 @@
-<p align="center">
-This was my introduction to html and javascript, my first projects
-</p>
+
+<h3 align="center">Level 1- Learning the basics</h3>
+
 
 
 [Level 1 projects](#projects)
